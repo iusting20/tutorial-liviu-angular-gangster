@@ -11,6 +11,12 @@
   <br /><br /><br /><br />
   ...
 
+  {{ rapper }}
+
+  <input type="email" [value]="rapperEmail" />
+
+  <button (click)="sayHello(rapper)">Say Hello Now!</button>
+
   <app-spongebob></app-spongebob>
   <app-squidward></app-squidward>
 </div>
